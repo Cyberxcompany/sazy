@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Vazirmatn', 'IBM Plex Sans Arabic', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    background-color: #121110;
+    color: #F7F4EF;
+    overflow-x: hidden;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+.font-display {
+  font-family: 'IBM Plex Sans Arabic', 'Vazirmatn', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-num {
+  font-family: 'JetBrains Mono', 'Plus Jakarta Sans', monospace;
+  font-variant-numeric: tabular-nums;
+}

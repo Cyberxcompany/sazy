@@ -1,0 +1,6 @@
+{
+  "name": "Gasi Sazi — گەسی سازی",
+  "description": "وێبسایت و مێنووی دیجیتاڵیی مەتعەم گەسی سازی بۆ خواردنە خێراکان و گەسی ڕەسەن",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
